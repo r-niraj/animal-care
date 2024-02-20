@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: TwSenMT;
+    src: url(../fonts/tw-cen-mt.ttf);
+}
+
 .mainBanner {
     background-image: url('../Images/home/CowRescue.jpg');
     background-size: cover;
@@ -55,46 +60,100 @@
     padding-top: 10px;
 }
 
-.mainBanner .navbar {
+.mainBanner .navbarCustom {
     position: absolute;
     right: 5%;
     width: 60%;
     top: 10%;
 }
 
-.mainBanner .navbar ul {
+.mainBanner .navbarCustom ul {
     display: flex;
     column-gap: 2%;
     justify-content: flex-end;
 }
 
-.mainBanner .navbar li {
+.mainBanner .navbarCustom li {
     list-style-type: none;
     font-family: "Inter";
 }
 
-.mainBanner .navbar li a {
+.mainBanner .navbarCustom li a {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
     text-shadow: 3px 3px 10px rgba(0, 183, 255, 0.562);
 }
 
-.mainBanner .navbar li a.active {
+.mainBanner .navbarCustom li a.active {
     color: #000;
 }
 
-.mainBanner .navbar li a.donateBtn{
+.mainBanner .navbarCustom li a.donateBtn {
     background-color: #398086;
     color: #fff;
     border-radius: 40px;
     padding: 10px 35px;
     margin-left: 50px;
+    transition: 0.3s all ease-in-out;
 }
 
-.mobile{
+.mainBanner .navbarCustom li a.donateBtn:hover {
+    background-color: #327379;
+}
+
+.mobile {
     display: none;
 }
+
+.marginLR {
+    margin: 6%;
+}
+
+.info1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 5%;
+}
+
+.info1 h1 {
+    font-size: 40px;
+    color:#1f1f1f;
+}
+
+.info1>p {
+    font-family: inter;
+    font-family: poppins;
+    margin: 20px 0;
+    font-weight: 400;
+    font-size:20px;
+    color:#1f1f1f;
+}
+
+.marginLR .carousel1 {
+    margin: 0 18%;
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #70B3B9 !important;
+}
+
+.carousel1 .carousel-caption h5 {
+    font-family: TwSenMT;
+    font-size: 25px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.562);
+}
+
+.carousel1 .carousel-caption p {
+    font-family: TwSenMT;
+    font-size: 19px;
+    line-height: 20px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.589);
+}
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
 
@@ -110,7 +169,7 @@
         top: 30px;
     }
 
-    .mainBanner .navbar {
+    .mainBanner .navbarCustom {
         display: none;
     }
 
@@ -128,11 +187,11 @@
         font-size: 20px;
     }
 
-    .donateBtn.mobile{
+    .donateBtn.mobile {
         display: block;
     }
 
-    a.donateBtn.mobile{
+    a.donateBtn.mobile {
         background-color: #398086;
         color: #fff;
         border-radius: 40px;
@@ -144,6 +203,30 @@
         top: 6%;
         font-family: inter;
         font-size: 14px;
+    }
+
+    .carousel-inner {
+        border-radius: 8px !important;
+    }
+    .marginLR {
+        margin: 7% 3%;
+    }
+
+    .info1>p{
+        font-size: 16px;
+    }
+    .marginLR .info1 {
+        margin: 0 3%;
+    }
+
+    .marginLR .info1 h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #1f1f1f;
+    }
+
+    .marginLR .carousel1{
+        margin: 0 3%;
     }
 }
 
