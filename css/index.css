@@ -517,6 +517,15 @@
 .ourStory.joinMovement .innerContainer .photoCont{
     background-image: url('../Images/home/JoinMoment.png');
 }
+
+.item.address.home p{
+    padding: 0;
+}
+
+ul.siteMapUL.Home li{
+    padding: 0;
+}
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
 
@@ -790,6 +799,7 @@
     .ourStory.joinMovement .innerContainer{
         flex-direction: column;
     }
+    
 }
 
 /* Media Query for low resolution  Tablets, Ipads */

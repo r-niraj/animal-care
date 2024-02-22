@@ -2,6 +2,125 @@
     margin: 0;padding: 0;box-sizing: border-box;
 }
 
+.footer .copyright{
+    text-align: center;
+    background-color: #C0C0C0;
+    padding: 5px;
+    font-family: inter;
+    color: #616161;
+}
+
+.footer .innerFtrContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 4% 10% 3% 10%;
+    background: #DCDCDC;
+}
+
+.footer .innerFtrContainer .item.logoSocial .logo {
+    background-image: url('../Images/home/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 120px;
+}
+
+.footer .innerFtrContainer .socialIcons {
+    display: flex;
+    justify-content: center;
+    width: 88%;
+    column-gap: 5%;
+    margin-top: 8%;
+    color: #fff;
+}
+
+.footer .innerFtrContainer .fb,
+.footer .innerFtrContainer .insta,
+.footer .innerFtrContainer .yt{
+    width: 30px;
+    height: 30px;
+    background: #808080;
+    display: grid;
+    place-items: center;
+}
+
+.FooterTitleTxt{
+    color: #808080;
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+ul.siteMapUL {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+ul.siteMapUL li{
+    padding: 1% 0;
+}
+
+ul.siteMapUL li a{
+    text-decoration: none;
+    color: #808080;
+}
+
+.footer .contactForm input,
+.footer .contactForm textarea{
+    border: none;
+    background: transparent;
+    text-indent: 20px;
+    outline: none;
+    font-family: inter;
+    font-size: 14px;
+}
+
+.footer .contactForm div{
+    background: #D6D6D6;
+    padding: 6px;
+    margin: 8px 0;
+}
+
+.footer input::placeholder, 
+.footer textarea::placeholder{
+    color: #C3C3C3;
+}
+
+.footer .contactForm div.submit{
+    background-color: #A9A9A9;
+    padding: 8px 0;
+    text-align: center;
+    transition: 0.3s all ease-in-out;
+}
+
+.footer .contactForm div.submit:hover{
+    background-color: #8b8a8a;
+}
+
+.footer input[type='submit']{
+    color: #fff;
+    width: 100%;
+    text-indent: 0;
+}
+
+.item.address p{
+    text-align: right;
+    margin: 0;
+    color: #808080;
+    font-family: inter;
+    font-size: 18px;
+    padding: 1% 0;
+}
+.item.address p.title{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 20px;
+    color: #808080;
+    margin-bottom: 5px;
+}
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
     body {

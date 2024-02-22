@@ -2,7 +2,99 @@
     margin: 0;padding: 0;box-sizing: border-box;
 }
 
+@font-face {
+    font-family: TwSenMT;
+    src: url(../fonts/tw-cen-mt.ttf);
+}
 
+.navbarReuse .logoContainer {
+    background-image: url(../Images/home/Logo-woutShad.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 85px;
+    position: absolute;
+    left: 5%;
+    top: 11%;
+}
+
+.navbarReuse .navbarCustom {
+    position: absolute;
+    right: 5%;
+    width: 60%;
+    top: 42%;
+}
+
+.navbarReuse .navbarCustom ul {
+    display: flex;
+    column-gap: 2%;
+    justify-content: flex-end;
+}
+
+.navbarReuse .navbarCustom li {
+    list-style-type: none;
+    font-family: "Inter";
+}
+
+.navbarReuse .navbarCustom li a.active {
+    color: #327379;
+}
+
+.navbarReuse .navbarCustom li a.donateBtn {
+    background-color: #398086;
+    color: #fff;
+    border-radius: 40px;
+    padding: 10px 35px;
+    margin-left: 50px;
+    transition: 0.3s all ease-in-out;
+}
+
+.navbarReuse .navbarCustom li a.active {
+    color: #398086;
+}
+
+.navbarReuse .navbarCustom li a {
+    color: #383838;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s all ease-in-out;
+}
+
+.navbarReuse .navbarCustom li a:hover {
+    color: #398086;
+}
+.navbarReuse .navbarCustom li a.donateBtn:hover {
+    background-color: #327379;
+}
+
+.navbarReuse {
+    background: #BADFE7;
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+
+.Breadcrumbs {
+    text-align: center;
+    background: #BADFE7;
+    padding: 2% 5% 3% 5%;
+}
+
+.Breadcrumbs .title{
+    font-family: TwSenMT;
+    font-size: 40px;
+    color: #474747;
+}
+
+.Breadcrumbs .linksLadder{
+    font-family: TwSenMT;
+    font-size: 20px;
+    color: #398086;
+}
+
+.Breadcrumbs .linksLadder span{
+    color: #474747;
+}
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
     body {
