@@ -2,6 +2,87 @@
     margin: 0;padding: 0;box-sizing: border-box;
 }
 
+.Row1{
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    padding: 3% 20%;
+    padding-bottom: 0;
+    margin: 3% 0;
+    margin-bottom: 0;
+}
+
+.Row1 .imgCol{
+    background-image: url('../Images/about/animal_help.png');
+    background-size: cover;
+    height: 350px;
+}
+
+.Row1 .txtCol{
+    font-family: raleway;
+    color: 121212;
+}
+
+.Row1 .imgCol,
+.Row1 .txtCol{
+    width: 50%;
+}
+
+.Row2 {
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    padding: 0 20%;
+    margin-bottom: 0;
+    flex-direction: row-reverse;
+}
+
+.Row2 .imgCol{
+    background-image: url('../Images/about/education.png');
+    background-size: cover;
+    height: 350px;
+}
+
+.Row2 .txtCol{
+    font-family: raleway;
+    color: 121212;
+    text-align: right;
+}
+
+.Row2 .imgCol,
+.Row2 .txtCol{
+    width: 50%;
+}
+
+
+
+.Row3 {
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    padding: 3% 20%;
+    padding-top: 0;
+    margin: 3% 0;
+    margin-top: 0;
+}
+
+.Row3 .imgCol{
+    background-image: url('../Images/about/food.png');
+    background-size: cover;
+    height: 350px;
+}
+
+.Row3 .txtCol{
+    font-family: raleway;
+    color: 121212;
+}
+
+.Row3 .imgCol,
+.Row3 .txtCol{
+    width: 50%;
+}
+
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
     body {
