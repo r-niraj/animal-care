@@ -21,6 +21,7 @@
     height: 100vh;
     width: 100%;
     position: relative;
+    background-position: center -150px;
 }
 
 .mainBanner .messageContainer {
@@ -37,7 +38,7 @@
 }
 
 .mainBanner .logoContainer {
-    background-image: url('../Images/home/logo-t-white.png');
+    background-image: url('../Images/home/Logo-woutShad.png');
     background-size: cover;
     width: 200px;
     height: 120px;
@@ -213,13 +214,13 @@
     display: flex;
     justify-content: space-between;
     background: #BADFE7;
-    padding: 2% 12%;
+    padding: 1% 12%;
     align-items: center;
 }
 
 .ourStory .photoCont {
     background-image: url('../Images/home/OurStory.png');
-    height: 300px;
+    height: 350px;
     width: 50%;
     background-size: contain;
     background-repeat: no-repeat;

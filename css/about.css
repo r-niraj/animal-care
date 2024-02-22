@@ -5,8 +5,8 @@
 .Row1{
     display: flex;
     align-items: center;
-    gap: 6%;
-    padding: 3% 20%;
+    gap: 3%;
+    padding: 3% 10%;
     padding-bottom: 0;
     margin: 3% 0;
     margin-bottom: 0;
@@ -15,7 +15,7 @@
 .Row1 .imgCol{
     background-image: url('../Images/about/animal_help.png');
     background-size: cover;
-    height: 350px;
+    height: 50vh;
 }
 
 .Row1 .txtCol{
@@ -31,8 +31,8 @@
 .Row2 {
     display: flex;
     align-items: center;
-    gap: 6%;
-    padding: 0 20%;
+    gap: 3%;
+    padding: 0 10%;
     margin-bottom: 0;
     flex-direction: row-reverse;
 }
@@ -40,7 +40,8 @@
 .Row2 .imgCol{
     background-image: url('../Images/about/education.png');
     background-size: cover;
-    height: 350px;
+    height: 50vh;
+    background-position: -60%;
 }
 
 .Row2 .txtCol{
@@ -60,7 +61,7 @@
     display: flex;
     align-items: center;
     gap: 6%;
-    padding: 3% 20%;
+    padding: 3% 10%;
     padding-top: 0;
     margin: 3% 0;
     margin-top: 0;
@@ -69,7 +70,7 @@
 .Row3 .imgCol{
     background-image: url('../Images/about/food.png');
     background-size: cover;
-    height: 350px;
+    height: 50vh;
 }
 
 .Row3 .txtCol{
@@ -86,28 +87,28 @@
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
     body {
-        background-color: red;
+        /* background-color: red; */
     }
 }
  
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
     body {
-        background-color: yellow;
+        /* background-color: yellow; */
     }
 }
  
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
     body {
-        background-color: blue;
+        /* background-color: blue; */
     }
 }
  
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px){
     body {
-        background-color: green;
+        /* background-color: green; */
     }
 }
  
