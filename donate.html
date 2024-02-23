@@ -52,24 +52,32 @@
     <div class="rowAnimText">
         <div class="DonateForm textCol">
             <form action="" method="post">
-                <div class="amtRow"></div>
+                <div class="amtRow">
+                    <label for="fiveH" class="eachAmt"><input id="fiveH" type="radio" name="donateAmt"> ₹500</label> 
+                    <label for="OneT" class="eachAmt"><input id="OneT" type="radio" name="donateAmt"> ₹1000</label> 
+                    <label for="25H" class="eachAmt"><input id="25H" type="radio" name="donateAmt"> ₹2500</label> 
+                    <label for="other" class="eachAmt"><input id="other" type="radio" name="donateAmt"> Other</label> 
+                </div>
                 <div class="DogprayMsgtxt">
                     <div class="DogIcon"></div>
                     <div class="Msgtxt">Only in 2500 INR, you can sponsor a dog's monthly food requirement.</div>
                 </div>
                 <div class="AmtPanRow">
                     <div class="icoInput">
-                        <div class="ico"></div>
-                        <input type="text" placeholder="Your Amount">
+                        <div class="ico">
+                            <i class="fa fa-inr" aria-hidden="true"></i>
+                        </div>
+                        <input type="text" placeholder="Your Amount" required>
                     </div>
 
                     <div class="icoInput">
-                        <div class="ico"></div>
-                        <input type="text" placeholder="PAN No.">
+                        <div class="ico">
+                            <i class="fa-solid fa-credit-card"></i>
+                        </div>
+                        <input type="text" placeholder="PAN No." required>
                     </div>
-                    
-                    <div class="submit"><input type="submit" value="Donate Now"></div>
                 </div>
+                <div class="submit"><input type="submit" value="Donate Now"></div>
             </form>
         </div>
         <div class="imgCol"></div>
