@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./css/workWithUs.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/secondary_nav.css">
-    
+    <link rel="stylesheet" href="./css/fadeScroll.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -23,7 +24,7 @@
 
 <body>
 
-    <div class="navbarReuse">
+    <div class="navbarReuse js-reveal">
         <div class="logoContainer"></div>
         <div class="navbarCustom">
             <ul>
@@ -38,16 +39,16 @@
         </div>
     </div>
 
-    <div class="Breadcrumbs">
+    <div class="Breadcrumbs js-reveal">
         <div class="title">Work With Us</div>
         <p class="linksLadder">Home/<span>Work With Us</span></p>
     </div>
     
-    <div class="mainMessageTxt">
+    <div class="mainMessageTxt js-reveal">
         Do something amazing for the animals!
     </div>
 
-    <div class="rowAnimText">
+    <div class="rowAnimText js-reveal">
         <div class="textCol">
             <p class="subParagraph">
                 <span class="Strong">Fundraise:</span>
@@ -63,7 +64,7 @@
         <div class="imgCol"></div>
     </div>
 
-    <div class="footer">
+    <div class="footer js-reveal">
         <footer>
             <div class="innerFtrContainer">
                 <div class="item logoSocial">
@@ -112,9 +113,10 @@
             <div class="copyright">Copyright © 2024 Animal Care</div>
         </footer>
     </div>
-    
-    <script>
 
+    <script src="JS/jquery.scroll-reveal.js"></script>
+    <script>
+        $.fn.scrollReveal();
     </script>
 </body>
 

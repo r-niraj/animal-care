@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/ourWork.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/secondary_nav.css">
-
+    <link rel="stylesheet" href="./css/fadeScroll.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <div class="navbarReuse">
+    <div class="navbarReuse js-reveal">
         <div class="logoContainer"></div>
         <div class="navbarCustom">
             <ul>
@@ -39,12 +39,12 @@
         </div>
     </div>
 
-    <div class="Breadcrumbs">
+    <div class="Breadcrumbs js-reveal">
         <div class="title">Our Work</div>
         <p class="linksLadder">Home/<span>Our Work</span></p>
     </div>
 
-    <div class="weInvite">
+    <div class="weInvite js-reveal">
         We invite you to explore our work gallery and be inspired by the remarkable stories of hope, healing, and
         compassion. Together, we can continue to make a meaningful impact in the lives of animals in need. Join us in
         our mission to create a world where every animal is treated with kindness and respect. Your support, whether
@@ -52,7 +52,7 @@
         our journey towards a brighter future for animals.
     </div>
 
-    <div class="imgCollage">
+    <div class="imgCollage js-reveal">
         <div class="row1">
             <div class="left"></div>
             <div class="right"></div>
@@ -71,8 +71,8 @@
         </div>
     </div>
 
-    <p class="title">What We Offer</p>
-    <div class="subTextCont">
+    <p class="title js-reveal">What We Offer</p>
+    <div class="subTextCont js-reveal">
         <p class="comprehensive">Providing comprehensive care and support for animals in need</p>
 
         <p class="subParagraph">
@@ -95,11 +95,11 @@
 
     </div>
 
-    <div class="alignDonate">
+    <div class="alignDonate js-reveal">
         <a class="donateBtn" href="donate.html">Donate</a>
     </div>
 
-    <div class="footer">
+    <div class="footer js-reveal">
         <footer>
             <div class="innerFtrContainer">
                 <div class="item logoSocial">
@@ -148,8 +148,9 @@
             <div class="copyright">Copyright © 2024 Animal Care</div>
         </footer>
     </div>
+    <script src="JS/jquery.scroll-reveal.js"></script>
     <script>
-
+        $.fn.scrollReveal();
     </script>
 </body>
 

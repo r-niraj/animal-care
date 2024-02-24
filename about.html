@@ -7,6 +7,8 @@
     <title>Animal Care - Every Life, Every Heartbeat</title>
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/fadeScroll.css">
+
     <link rel="stylesheet" href="./css/secondary_nav.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +24,7 @@
 </head>
 
 <body>
-    <div class="navbarReuse">
+    <div class="navbarReuse js-reveal">
         <div class="logoContainer"></div>
         <div class="navbarCustom">
             <ul>
@@ -36,12 +38,12 @@
             </ul>
         </div>
     </div>
-    <div class="Breadcrumbs">
+    <div class="Breadcrumbs js-reveal">
         <div class="title">Our Story</div>
         <p class="linksLadder">Home/<span>About</span></p>
     </div>
 
-    <div class="Row1">
+    <div class="Row1 js-reveal">
         <div class="imgCol"></div>
         <div class="txtCol">
             A group of individuals with over 20 years of experience in envirnoment & animal conservation have united to start an
@@ -50,21 +52,21 @@
         </div>
     </div>
     
-    <div class="Row2">
+    <div class="Row2 js-reveal">
         <div class="imgCol"></div>
         <div class="txtCol">
             At Animal Care, we are dedicated to ensuring the well-being of animals and giving them the love and support they deserve. Our team of passionate individuals works tirelessly to rescue, rehabilitate, and find loving homes for animals in need.
         </div>
     </div>
 
-    <div class="Row3">
+    <div class="Row3 js-reveal">
         <div class="imgCol"></div>
         <div class="txtCol">
             Animal Care has proudly served a diverse range of supporters, including both individual animal lovers and larger organizations committed to animal welfare. Our services and programs have touched the lives of countless animals, making a tangible difference in their well-being.
         </div>
     </div>
 
-    <div class="footer">
+    <div class="footer js-reveal">
         <footer>
             <div class="innerFtrContainer">
                 <div class="item logoSocial">
@@ -114,8 +116,9 @@
         </footer>
     </div>
 
+    <script src="JS/jquery.scroll-reveal.js"></script>
     <script>
-
+       $.fn.scrollReveal();
     </script>
 </body>
 

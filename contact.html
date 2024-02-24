@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/secondary_nav.css">
+    <link rel="stylesheet" href="./css/fadeScroll.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +22,7 @@
 </head>
 
 <body>
-    <div class="navbarReuse">
+    <div class="navbarReuse js-reveal">
         <div class="logoContainer"></div>
         <div class="navbarCustom">
             <ul>
@@ -35,23 +36,23 @@
             </ul>
         </div>
     </div>
-    <div class="Breadcrumbs">
+    <div class="Breadcrumbs js-reveal">
         <div class="title">Contact Us</div>
         <p class="linksLadder">Home/<span>Contact</span></p>
     </div>
 
-    <div class="thanksMsg">
+    <div class="thanksMsg js-reveal">
         Thank you for your interest in connecting with us. We welcome your inquiries, feedback, and collaboration opportunities. Please feel free to reach out to us.
     </div>
 
-    <div class="address">
+    <div class="address js-reveal">
         <p class="title">SWASTIK APARTMENT</p>
         <p>RZF-988/16, flat no. 204, Second floor, Ambedkar Marg, </p>
         <p>Rajnagar part-2,Palam Colony, New Delhi -110077</p>
         <p>Contact: +91 9315982650</p>
     </div>
 
-    <div class="rowAnimText">
+    <div class="rowAnimText js-reveal">
         <div class="contactForm textCol">
             <form action="" method="post">
                 <div><input type="text" id="name" placeholder="Name" required></div>
@@ -65,12 +66,12 @@
         <div class="imgCol"></div>
     </div>
 
-    <p class="bePartText">
+    <p class="bePartText js-reveal">
         Be a part of Animal Care and help us create a better world for animals. Donate now and make a difference.
         <a class="donateBtn" href="get-involved.html">Donate</a>
     </p>
 
-    <div class="footer">
+    <div class="footer js-reveal">
         <footer>
             <div class="innerFtrContainer">
                 <div class="item logoSocial">
@@ -118,9 +119,9 @@
             <div class="copyright">Copyright © 2024 Animal Care</div>
         </footer>
     </div>
-
+    <script src="JS/jquery.scroll-reveal.js"></script>
     <script>
-        
+        $.fn.scrollReveal();
     </script>
 </body>
 

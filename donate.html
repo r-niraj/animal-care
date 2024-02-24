@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/donate.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/secondary_nav.css">
-
+    <link rel="stylesheet" href="./css/fadeScroll.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +25,7 @@
 
 <body>
 
-    <div class="navbarReuse">
+    <div class="navbarReuse js-reveal">
         <div class="logoContainer"></div>
         <div class="navbarCustom">
             <ul>
@@ -40,16 +40,16 @@
         </div>
     </div>
 
-    <div class="Breadcrumbs">
+    <div class="Breadcrumbs js-reveal">
         <div class="title">Donate Us</div>
         <!-- <p class="linksLadder">Home/<span>Contact</span></p> -->
     </div>
 
-    <div class="thanksMsg">
+    <div class="thanksMsg js-reveal">
         Your generosity can make a real difference in the lives of those we serve. By donating to Animal Care, you become a vital part of our mission. Every contribution, no matter the size, helps us create positive change and improve the well-being of our community.
     </div>
 
-    <div class="rowAnimText">
+    <div class="rowAnimText js-reveal">
         <div class="DonateForm textCol">
             <form action="" method="post">
                 <div class="amtRow">
@@ -58,11 +58,11 @@
                     <label for="25H" class="eachAmt"><input id="25H" type="radio" name="donateAmt"> ₹2500</label> 
                     <label for="other" class="eachAmt"><input id="other" type="radio" name="donateAmt"> Other</label> 
                 </div>
-                <div class="DogprayMsgtxt">
+                <div class="DogprayMsgtxt js-reveal">
                     <div class="DogIcon"></div>
                     <div class="Msgtxt">Only in 2500 INR, you can sponsor a dog's monthly food requirement.</div>
                 </div>
-                <div class="AmtPanRow">
+                <div class="AmtPanRow js-reveal">
                     <div class="icoInput">
                         <div class="ico">
                             <i class="fa fa-inr" aria-hidden="true"></i>
@@ -83,7 +83,7 @@
         <div class="imgCol"></div>
     </div>
 
-    <div class="footer">
+    <div class="footer js-reveal">
         <footer>
             <div class="innerFtrContainer">
                 <div class="item logoSocial">
@@ -132,8 +132,10 @@
             <div class="copyright">Copyright © 2024 Animal Care</div>
         </footer>
     </div>
+    
+    <script src="JS/jquery.scroll-reveal.js"></script>
     <script>
-
+        $.fn.scrollReveal();
     </script>
 </body>
 
