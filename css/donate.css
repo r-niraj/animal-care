@@ -2,13 +2,6 @@
     margin: 0;padding: 0;box-sizing: border-box;
 }
 
-/* Media Query for Mobile Devices */
-@media (max-width: 480px) {
-    body {
-        background-color: red;
-    }
-}
- 
 .thanksMsg {
     text-align: center;
     font-family: 'Raleway';
@@ -138,6 +131,33 @@
     width: 100%;
     cursor: pointer;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .thanksMsg {
+        font-size: 18px;
+        margin: 10% 7%;
+    }
+
+    .rowAnimText{
+        flex-direction: column-reverse;
+        margin: 3% 7%;
+    }
+
+    .rowAnimText .textCol, .rowAnimText .imgCol{
+        width: 100%;
+    }
+
+    .DonateForm.textCol{
+        border: none;
+        padding: 0;
+    }
+
+    .DonateForm.textCol .amtRow{
+        gap: 8%;
+    }
+}
+ 
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {

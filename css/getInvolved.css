@@ -70,7 +70,31 @@ p.subParagraph {
 }
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-    body {
+    .mainMessageTxt{
+        font-size: 25px;
+        padding: 8px 10%;
+        line-height: 27px;
+    }
+
+    p.subParagraph{
+        margin-bottom: 15px;
+        margin: 1% 6%;
+    }
+    .rowAnimText{
+        flex-direction: column-reverse;
+        margin: 3% 5%;
+    }
+
+    .rowAnimText .textCol, .rowAnimText .imgCol{
+        width: 100%;
+        margin: 3% auto;
+    }
+
+    .rowAnimText .donateBtn{
+        margin-top: 5%;
+    }
+    .rowAnimText .textCol .title {
+        line-height: 26px;
     }
 }
  

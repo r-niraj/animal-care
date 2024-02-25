@@ -102,14 +102,36 @@ p.bePartText {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-    body {
+    .thanksMsg{
+        font-size: 18px;
+        margin: 10% 7%;
+    }
+
+    .address {
+        text-align: left;
+        width: 81%;
+        margin: 8% auto;
+        margin-bottom: 0;
+    }
+
+    .rowAnimText{
+        flex-direction: column-reverse;
+        margin: 3% 7%;
+    }
+
+    .rowAnimText .textCol, .rowAnimText .imgCol{
+        width: 100%;
+    }
+
+    p.bePartText{
+        margin: 3% 7%;
+        font-size: 18px;
     }
 }
  
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-    body {
-    }
+    
 }
  
 /* Media Query for Tablets Ipads portrait mode */

@@ -99,8 +99,32 @@
 }
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-    body {
+  /* responsive nabar starts here */
+    .navbarReuse{
+        height: 142px;
     }
+
+    .navbarReuse .logoContainer{
+        top: 30%;
+    }
+    .navbarReuse .logoContainer{
+        background-position: center;
+        left: 0 ;
+        width: 100% ;
+        height: 104px ;
+    }
+
+    .navbarReuse .navbarCustom{
+        display: none;
+    }
+
+    .Breadcrumbs{
+        padding: 8% 5%;
+    }
+    .Breadcrumbs .title {
+        font-size: 30px ;
+    }
+    /* responsive nabar ends here */
 }
  
 /* Media Query for low resolution  Tablets, Ipads */

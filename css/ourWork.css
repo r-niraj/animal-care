@@ -135,7 +135,63 @@ div.subTextCont{
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-    body {
+    .imgCollage{
+        width: 90%;
+    }
+
+    .imgCollage .row1, .imgCollage .row2{
+        flex-direction: column;
+    }
+
+    .imgCollage .row1 .left,
+    .imgCollage .row1 .right,
+    .imgCollage .row2 .left{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    .imgCollage .row2 .right{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .imgCollage .row2 .right .gridItems{
+        height: 300px;
+    }
+
+    .imgCollage .row1, 
+    .imgCollage .row2{
+        margin-bottom: 0;
+    }
+
+    .imgCollage .row1 .left,
+    .imgCollage .row1 .right {
+        background-position: center;
+    }
+
+    .imgCollage .row2 .right .gridItems:first-child{
+        background-position: center;
+    }
+
+    .weInvite{
+        padding: 3% 5%;
+        font-size: 16px;
+    }
+
+    p.title{
+        margin: 10% auto;
+        margin-bottom: 0;
+    }
+
+    .subTextCont p{
+        font-size: 16px;
+    }
+
+    .alignDonate{
+        margin-bottom: 10%;
     }
 }
  

@@ -86,8 +86,28 @@
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-    body {
-        /* background-color: red; */
+    .Row1,.Row2,.Row3{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .Row1 .imgCol, .Row1 .txtCol,
+    .Row3 .imgCol, .Row3 .txtCol,
+    .Row2 .imgCol, .Row2 .txtCol{
+        width: 100%;
+        text-align: left;
+    }
+
+    .Row1,.Row2,.Row3{
+        margin: 0;
+        padding: 3%;
+        margin-bottom:3%;
+    }
+
+    .Row1 .imgCol,
+    .Row2 .imgCol,
+    .Row3 .imgCol{
+        background-position: center;
     }
 }
  

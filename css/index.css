@@ -800,7 +800,35 @@ ul.siteMapUL.Home li{
     .ourStory.joinMovement .innerContainer{
         flex-direction: column;
     }
+
+    /* responsive footer starts here */
+    .footer .innerFtrContainer{
+        flex-direction: column;
+    }
+
+    .footer .innerFtrContainer .item.logoSocial .logo{
+        width: 294px !important;
+        background-position: center;
+    }
+
+    .innerFtrContainer .item.logoSocial{
+        margin-bottom: 15%;
+    }
     
+    .innerFtrContainer .item.siteMap{
+        margin-bottom: 10%;
+    }
+
+    .innerFtrContainer  .item.connectForm {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .innerFtrContainer .item.address p{
+        text-align: left;
+    }    
+
+     /* responsive footer ends here */
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
