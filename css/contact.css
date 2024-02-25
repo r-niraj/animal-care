@@ -107,13 +107,6 @@ p.bePartText {
         margin: 10% 7%;
     }
 
-    .address {
-        text-align: left;
-        width: 81%;
-        margin: 8% auto;
-        margin-bottom: 0;
-    }
-
     .rowAnimText{
         flex-direction: column-reverse;
         margin: 3% 7%;

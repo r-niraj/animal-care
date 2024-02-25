@@ -106,6 +106,7 @@ ul.siteMapUL li a {
     color: #fff;
     width: 100%;
     text-indent: 0;
+    font-family: inter;
 }
 
 .item.address p {

@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: TwSenMT;
     src: url(../fonts/tw-cen-mt.ttf);
@@ -63,9 +57,9 @@
 
 .mainBanner .navbarCustom {
     position: absolute;
-    right: 5%;
+    right: 4%;
     width: 75%;
-    top: 10%;
+    top: 6%;
 }
 
 .mainBanner .navbarCustom ul {
@@ -303,7 +297,7 @@
     text-align: left;
 }
 
-.WCAnimalCare p.title{
+.WCAnimalCare p.title {
     font-size: 30px;
     font-family: 'Inter';
     text-align: center;
@@ -319,22 +313,23 @@
     padding: 0 8%;
 }
 
-.WCAnimalCare .leftText{
+.WCAnimalCare .leftText {
     width: 50%;
     font-family: 'TwSenMT';
     font-size: 22px;
     line-height: 25px;
 }
-    
-.WCAnimalCare .Image{
+
+.WCAnimalCare .Image {
     background-image: url('../Images/home/why-choose-aci.png');
-    height:450px;
+    height: 450px;
     background-size: contain;
     width: 50%;
     background-repeat: no-repeat;
 }
 
-.currCamp,.Comprehensive {
+.currCamp,
+.Comprehensive {
     text-align: center;
 }
 
@@ -345,7 +340,7 @@
     margin: 0;
 }
 
-.currCamp p.title span{
+.currCamp p.title span {
     font-style: italic;
     color: #3258B0;
     font-weight: 700;
@@ -365,16 +360,16 @@
     transition: 0.3s all ease-in-out;
 }
 
-.donateBtn:hover{
+.donateBtn:hover {
     color: #fff;
     background-color: #306b70;
 }
 
-.currCamp{
+.currCamp {
     margin: 0 3% 5%;
 }
 
-.WCAnimalCare.marginLR{
+.WCAnimalCare.marginLR {
     margin: 3% 6% 5% 6%;
 }
 
@@ -401,7 +396,7 @@
     background-position: 83% center;
 }
 
-.waterBowl{
+.waterBowl {
     display: flex;
     align-items: center;
     padding: 3% 15%;
@@ -409,10 +404,11 @@
 }
 
 .waterBowl .leftText,
-.waterBowl .imageContainer{
+.waterBowl .imageContainer {
     width: 50%;
 }
-.waterBowl .imageContainer{
+
+.waterBowl .imageContainer {
     background-image: url('../Images/home/water-bowl-birds.png');
     height: 400px;
     background-size: cover;
@@ -430,7 +426,7 @@
     font-weight: 500;
 }
 
-.Testimonials{
+.Testimonials {
     text-align: center;
     margin: 5% 0;
 }
@@ -459,7 +455,7 @@
     padding: 0 22%;
 }
 
-.Testimonials .carousel-control-prev{
+.Testimonials .carousel-control-prev {
     left: -84px;
     background: #398086;
     height: 35px;
@@ -488,7 +484,7 @@
     padding: 0 22%;
 }
 
-.futurePlans .title{
+.futurePlans .title {
     font-family: inter;
     font-weight: 600;
     font-size: 25px;
@@ -501,30 +497,38 @@
     line-height: 22px;
 }
 
-.ourStory.joinMovement{
+.ourStory.joinMovement {
     margin-top: 8%;
 }
 
-.ourStory.joinMovement .innerContainer{
+.ourStory.joinMovement .innerContainer {
     flex-direction: row-reverse;
 }
 
-.ourStory.joinMovement .innerContainer p.storyTitle{
+.ourStory.joinMovement .innerContainer p.storyTitle {
     font-size: 30px;
     font-family: 'Inter';
     font-weight: 600;
 }
 
-.ourStory.joinMovement .innerContainer .photoCont{
+.ourStory.joinMovement .innerContainer .photoCont {
     background-image: url('../Images/home/JoinMoment.png');
 }
 
-.item.address.home p{
+.item.address.home p {
     padding: 0;
 }
 
-ul.siteMapUL.Home li{
+ul.siteMapUL.Home li {
     padding: 0;
+}
+
+.footer .contactForm div {
+    padding: 7px 6px !important;
+}
+
+.mobileMenuContent {
+    display: none;
 }
 
 /* Media Query for Mobile Devices */
@@ -540,6 +544,7 @@ ul.siteMapUL.Home li{
         background-size: contain;
         background-repeat: no-repeat;
         top: 30px;
+        z-index: 9;
     }
 
     .mainBanner .navbarCustom {
@@ -703,17 +708,17 @@ ul.siteMapUL.Home li{
         height: 30vh;
     }
 
-    .WCAnimalCare p.title{
+    .WCAnimalCare p.title {
         font-size: 22px;
         margin-bottom: 20px;
     }
 
-    .WCAnimalCare .flexContainer{
+    .WCAnimalCare .flexContainer {
         flex-direction: column-reverse;
         padding: 0 5%;
     }
 
-    .WCAnimalCare .Image{
+    .WCAnimalCare .Image {
         width: 100%;
         height: 269px;
     }
@@ -734,11 +739,11 @@ ul.siteMapUL.Home li{
         line-height: 20px;
     }
 
-    .currCamp{
+    .currCamp {
         margin: 15% 5%;
     }
 
-    .Comprehensive p.title{
+    .Comprehensive p.title {
         font-size: 22px;
     }
 
@@ -746,89 +751,75 @@ ul.siteMapUL.Home li{
         font-size: 16px;
     }
 
-    .waterBowl p.title{
+    .waterBowl p.title {
         font-size: 20px;
     }
-    
-    .waterBowl{
+
+    .waterBowl {
         flex-direction: column-reverse;
         padding: 3%;
         row-gap: 3%;
     }
 
-    .waterBowl .leftText, 
-    .waterBowl .imageContainer{
+    .waterBowl .leftText,
+    .waterBowl .imageContainer {
         width: 90%;
         margin-bottom: 15px;
     }
 
-    .waterBowl p.descr{
+    .waterBowl p.descr {
         text-align: center;
     }
 
-    .Testimonials p.title{
+    .Testimonials p.title {
         font-size: 25px;
     }
 
-    .Testimonials p.subtext{
+    .Testimonials p.subtext {
         font-size: 16px;
         margin-bottom: 0;
     }
 
-    .Testimonials .innerContainer{
+    .Testimonials .innerContainer {
         padding: 0 4%;
     }
 
     .Testimonials .carousel-control-next,
-    .Testimonials .carousel-control-prev{
+    .Testimonials .carousel-control-prev {
         display: none;
     }
 
-    .futurePlans{
+    .futurePlans {
         padding: 3%;
         margin-top: 10%;
     }
 
-    .futurePlans .title{
+    .futurePlans .title {
         font-size: 20px;
     }
 
-    .futurePlans p.descr{
+    .futurePlans p.descr {
         font-size: 16px;
     }
 
-    .ourStory.joinMovement .innerContainer{
+    .ourStory.joinMovement .innerContainer {
         flex-direction: column;
     }
 
-    /* responsive footer starts here */
-    .footer .innerFtrContainer{
-        flex-direction: column;
+    .mainBanner {
+        background-image: url('../Images/home/CowRescueMobile.jpg');
+        position: relative;
     }
 
-    .footer .innerFtrContainer .item.logoSocial .logo{
-        width: 294px !important;
-        background-position: center;
+    .mainBanner .logBgMobile.mobile {
+        background-image: url('../Images/home/logBck.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 182px;
+        display: block;
+        position: relative;
     }
-
-    .innerFtrContainer .item.logoSocial{
-        margin-bottom: 15%;
-    }
-    
-    .innerFtrContainer .item.siteMap{
-        margin-bottom: 10%;
-    }
-
-    .innerFtrContainer  .item.connectForm {
-        width: 100%;
-        margin-bottom: 10%;
-    }
-
-    .innerFtrContainer .item.address p{
-        text-align: left;
-    }    
-
-     /* responsive footer ends here */
 }
 
 /* Media Query for low resolution  Tablets, Ipads */

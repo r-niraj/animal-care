@@ -1,0 +1,28 @@
+.logBgMobile.mobile .fa-solid.fa-bars {
+    position: absolute;
+    left: 8%;
+    top: 11%;
+    font-size: 25px;
+    color: #398086;
+    z-index: 9;
+}
+
+.mobileMenuContent {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    display: block;
+    transition: all 0.2s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.mobileMenuContent .fa-solid.fa-x {
+    right: 9%;
+    position: absolute;
+    top: 4%;
+    color: #398086;
+    font-size: 25px;
+}
