@@ -83,7 +83,6 @@
     width: 50%;
 }
 
-
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
     .Row1,.Row2,.Row3{

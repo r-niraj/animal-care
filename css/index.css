@@ -533,6 +533,14 @@ ul.siteMapUL.Home li {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+    .mainBanner  .logBgMobile.mobile .fa-solid.fa-bars {
+        position: absolute;
+        left: 9%;
+        top: 25%;
+        font-size: 25px;
+        color: #398086;
+        z-index: 9;
+    }
 
     .mainBanner {
         height: 100vh;
@@ -581,6 +589,7 @@ ul.siteMapUL.Home li {
         top: 6%;
         font-family: inter;
         font-size: 14px;
+        transition: 0.2s all ease-in-out;
     }
 
     .carousel-inner {
@@ -815,10 +824,10 @@ ul.siteMapUL.Home li {
         background-image: url('../Images/home/logBck.png');
         background-size: contain;
         background-repeat: no-repeat;
-        width: 350px;
-        height: 182px;
+        width: 100%;
+        position: fixed;
+        height: 45px;
         display: block;
-        position: relative;
     }
 }
 
