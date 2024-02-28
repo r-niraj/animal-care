@@ -1,7 +1,7 @@
 let scrollPos;
 const handleMobileMenu = () => {
     $('.mobileMenuContent').css({
-        'transform': 'translateX(0)',
+        'transform': 'translateX(-30%)',
         'top': scrollPos
     });
 
