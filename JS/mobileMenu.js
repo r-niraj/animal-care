@@ -1,25 +1,15 @@
-let scrollPos;
 const handleMobileMenu = () => {
+    getNavData();
+    
     $('.mobileMenuContent').css({
         'transform': 'translateX(-30%)',
-        'top': scrollPos
     });
-
-    $('html, body').css({
-        overflow: 'hidden',
-    });
-
-    // $(window).scrollTop(0);
+    
 }
 
 const handleCloseNav = () => {
     $('.mobileMenuContent').css({
         'transform': 'translateX(-100%)'
-    });
-    
-    $('html, body').css({
-        overflow: 'auto ',
-        height: 'auto'
     });
 }
 
@@ -51,4 +41,13 @@ $(document).on('scroll', function(){
             'padding':''
         })
     }
+});
+
+const getNavData = ()=>{
+    const navUl = $('.navbarCustom').html();
+    $('.mobileMenuContent #bindDrpdowndata').html(navUl);
+}
+
+$(document).ready(function(){
+    getNavData();
 });

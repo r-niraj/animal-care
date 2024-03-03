@@ -533,7 +533,7 @@ ul.siteMapUL.Home li {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-    .mainBanner  .logBgMobile.mobile .fa-solid.fa-bars {
+    .mainBanner .logBgMobile.mobile .fa-solid.fa-bars {
         position: absolute;
         left: 9%;
         top: 25%;
@@ -828,6 +828,15 @@ ul.siteMapUL.Home li {
         position: fixed;
         height: 45px;
         display: block;
+    }
+
+    #bindDrpdowndata ul {
+        left: 38% !important;
+    }
+
+    #bindDrpdowndata ul li {
+        margin: 0;
+        padding: 2px 5px !important;
     }
 }
 

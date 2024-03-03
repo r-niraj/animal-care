@@ -27,11 +27,14 @@
 <body>
     <div class="navbarReuse js-reveal">
         <div class="logoContainer"></div>
-        
+
         <div class="logBgMobile mobile">
             <i class="fa-solid fa-bars" onclick="handleMobileMenu();"></i>
         </div>
-        <div class="mobileMenuContent"><i class="fa-solid fa-x" onclick="handleCloseNav();"></i></div>
+        <div class="mobileMenuContent">
+            <i class="fa-solid fa-x" onclick="handleCloseNav();"></i>
+            <div id="bindDrpdowndata"></div>
+        </div>
 
         <div class="navbarCustom">
             <ul>
@@ -53,23 +56,28 @@
     <div class="Row1 js-reveal">
         <div class="imgCol"></div>
         <div class="txtCol">
-            A group of individuals with over 20 years of experience in envirnoment & animal conservation have united to start an
+            A group of individuals with over 20 years of experience in envirnoment & animal conservation have united to
+            start an
             organisation with a vision to not only help the animals but also individuals who struggle to provide for the
             rescuing and rehabilitation of sick and needy animals.
         </div>
     </div>
-    
+
     <div class="Row2 js-reveal">
         <div class="imgCol"></div>
         <div class="txtCol">
-            At Animal Care, we are dedicated to ensuring the well-being of animals and giving them the love and support they deserve. Our team of passionate individuals works tirelessly to rescue, rehabilitate, and find loving homes for animals in need.
+            At Animal Care, we are dedicated to ensuring the well-being of animals and giving them the love and support
+            they deserve. Our team of passionate individuals works tirelessly to rescue, rehabilitate, and find loving
+            homes for animals in need.
         </div>
     </div>
 
     <div class="Row3 js-reveal">
         <div class="imgCol"></div>
         <div class="txtCol">
-            Animal Care has proudly served a diverse range of supporters, including both individual animal lovers and larger organizations committed to animal welfare. Our services and programs have touched the lives of countless animals, making a tangible difference in their well-being.
+            Animal Care has proudly served a diverse range of supporters, including both individual animal lovers and
+            larger organizations committed to animal welfare. Our services and programs have touched the lives of
+            countless animals, making a tangible difference in their well-being.
         </div>
     </div>
 
@@ -79,44 +87,41 @@
                 <div class="item logoSocial">
                     <div class="logo"></div>
                     <div class="socialIcons">
-                        <div class="fb"><i class="fa-brands fa-facebook-f"></i></div>
-                        <div class="insta"><i class="fa-brands fa-instagram"></i></div>
-                        <div class="yt"><i class="fa-brands fa-youtube"></i></div>
+                        <a target="_blank" href="https://www.facebook.com/animalcareindia.org.in">
+                            <div class="fb"><i class="fa-brands fa-facebook-f"></i></div>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/animalcareindia.org.in/">
+                            <div class="insta"><i class="fa-brands fa-instagram"></i></div>
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/@animalcareindia">
+                            <div class="yt"><i class="fa-brands fa-youtube"></i></div>
+                        </a>
                     </div>
                 </div>
                 <div class="item siteMap">
                     <p class="FooterTitleTxt">SITE MAP</p>
-                    <ul class="siteMapUL">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Work</a></li>
-                        <li><a href="#">Get Involved</a></li>
-                        <li><a href="#">Work With Us</a></li>
-                        <li><a href="#">Support Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Terms and Conditions</a></li>
+                    <ul class="siteMapUL Home">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="our-work.html">Our Work</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                        <li><a href="work-with-us.html">Work With Us</a></li>
+                        
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="shipping-delivery.html">Shipping and Delivery</a></li>
+                        <li><a href="cancellation-refund.html">Cancellation and Refund</a></li>
                     </ul>
                 </div>
-                <div class="item connectForm">
-                    <p class="FooterTitleTxt">CONNECT WITH US</p>
-                    <div class="contactForm">
-                        <form action="" method="post">
-                            <div><input type="text" id="name" placeholder="Name" required></div>
-                            <div><input type="email" id="name" placeholder="Email" required></div>
-                            <div><input type="text" id="name" placeholder="Phone" required></div>
-                            <div><input type="text" id="name" placeholder="Name" required></div>
-                            <div><textarea name="message" id="message" cols="30" rows="2" placeholder="Message"
-                                    required></textarea></div>
-                            <div class="submit"><input type="submit" value="Send Inquiry"></div>
-                        </form>
-                    </div>
-                </div>
-                <div class="item address">
+                
+                <div class="item address home">
                     <p class="title">SWASTIK APARTMENT</p>
                     <p>RZF-988/16, flat no. 204, Second floor,</p>
                     <p>Ambedkar Marg, Rajnagar part-2,Palam</p>
                     <p>Colony,New Delhi -110077</p>
                     <p>Contact: +91 9315982650</p>
+                    <p>E-mail: info@animalcareindia.org.in</p>
                 </div>
             </div>
             <div class="copyright">Copyright © 2024 Animal Care</div>
@@ -126,7 +131,7 @@
     <script src="JS/jquery.scroll-reveal.js"></script>
     <script src="JS/mobileMenu.js"></script>
     <script>
-       $.fn.scrollReveal();
+        $.fn.scrollReveal();
     </script>
 </body>
 

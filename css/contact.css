@@ -43,6 +43,12 @@ p.bePartText {
     margin: 3% 26%;
 }
 
+p.bePartText.emailId{
+    font-size: 22px;
+    font-weight: 600;
+    color: #398086;
+}
+
 .address p{
     font-size: 18px;
     font-family: 'Raleway';
@@ -119,6 +125,11 @@ p.bePartText {
     p.bePartText{
         margin: 3% 7%;
         font-size: 18px;
+    }
+
+    p.bePartText.emailId{
+        font-size: 20px;
+        margin-bottom: 22px;
     }
 }
  

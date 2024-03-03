@@ -73,7 +73,9 @@
     background: #BADFE7;
     height: 100px;
     display: flex;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 12;
 }
 
 .Breadcrumbs {
@@ -102,6 +104,7 @@
   /* responsive nabar starts here */
     .navbarReuse{
         height: 142px;
+        position: relative;
     }
 
     .navbarReuse .logoContainer{
