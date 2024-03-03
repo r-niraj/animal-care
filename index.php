@@ -38,13 +38,13 @@
             </div>
             <div class="navbarCustom">
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="our-work.html">Our Work</a></li>
-                    <li><a href="get-involved.html">Get Involved</a></li>
-                    <li><a href="work-with-us.html">Work With Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="donate.html" class="donateBtn">Donate</a></li>
+                    <li><a href="index.php" class="active">Home</a></li>
+                    <li><a href="about.php">About us</a></li>
+                    <li><a href="our-work.php">Our Work</a></li>
+                    <li><a href="get-involved.php">Get Involved</a></li>
+                    <li><a href="work-with-us.php">Work With Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="donate.php" class="donateBtn">Donate</a></li>
                 </ul>
             </div>
             <a href="donate.html" class="donateBtn mobile">Donate</a>
@@ -320,17 +320,17 @@
                     <div class="item siteMap">
                         <p class="FooterTitleTxt">SITE MAP</p>
                         <ul class="siteMapUL Home">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="our-work.html">Our Work</a></li>
-                            <li><a href="get-involved.html">Get Involved</a></li>
-                            <li><a href="work-with-us.html">Work With Us</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="our-work.php">Our Work</a></li>
+                            <li><a href="get-involved.php">Get Involved</a></li>
+                            <li><a href="work-with-us.php">Work With Us</a></li>
                             
-                            <li><a href="contact.html">Contact Us</a></li>
-                            <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="shipping-delivery.html">Shipping and Delivery</a></li>
-                            <li><a href="cancellation-refund.html">Cancellation and Refund</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
+                            <li><a href="terms-and-conditions.php">Terms and Conditions</a></li>
+                            <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                            <li><a href="shipping-delivery.php">Shipping and Delivery</a></li>
+                            <li><a href="cancellation-refund.php">Cancellation and Refund</a></li>
                         </ul>
                     </div>
                     

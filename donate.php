@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animal Care - Every Life, Every Heartbeat</title>
-    <link rel="stylesheet" href="./css/getInvolved.css">
+    <link rel="stylesheet" href="./css/donate.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/secondary_nav.css">
     <link rel="stylesheet" href="./css/fadeScroll.css">
@@ -20,7 +20,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
 </head>
 
 <body>
@@ -35,51 +37,58 @@
         </div>
         <div class="navbarCustom">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="our-work.html">Our Work</a></li>
-                <li><a href="get-involved.html" class="active">Get Involved</a></li>
-                <li><a href="work-with-us.html">Work With Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="donate.html" class="donateBtn">Donate</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About us</a></li>
+                <li><a href="our-work.php">Our Work</a></li>
+                <li><a href="get-involved.php">Get Involved</a></li>
+                <li><a href="work-with-us.php">Work With Us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="donate.php" class="donateBtn">Donate</a></li>
             </ul>
         </div>
     </div>
 
     <div class="Breadcrumbs js-reveal">
-        <div class="title">Get Involved</div>
-        <p class="linksLadder">Home/<span>Get Involved</span></p>
+        <div class="title">Donate Us</div>
+        <!-- <p class="linksLadder">Home/<span>Contact</span></p> -->
     </div>
 
-    <div class="mainMessageTxt js-reveal">
-        By joining our cause, you are helping us create a world where animals are treated with kindness, compassion, and
-        respect.
+    <div class="thanksMsg js-reveal">
+        Your generosity can make a real difference in the lives of those we serve. By donating to Animal Care, you
+        become a vital part of our mission. Every contribution, no matter the size, helps us create positive change and
+        improve the well-being of our community.
     </div>
-
-    <p class="subParagraph js-reveal">
-        <span class="Strong">Volunteer:</span>
-        Join our dedicated team of volunteers and experience the joy of directly helping animals in need. Whether it's
-        walking dogs, socializing cats, or assisting with administrative tasks, there are plenty of ways to contribute
-        your time and skills. We provide comprehensive training and support to ensure you feel confident and empowered
-        in your role.
-    </p>
-
-    <p class="subParagraph js-reveal">
-        <span class="Strong">Sponsor:</span>
-        Are you looking for a meaningful way to make a difference in the lives of animals in need? Consider sponsoring a
-        rescued animal today! By becoming a sponsor, you can provide vital support and care for animals who have been
-        rescued from difficult situations. Sponsoring a rescued animal is a wonderful opportunity to show your
-        compassion and make a lasting impact. Join us in giving these animals the love and care they deserve.
-    </p>
 
     <div class="rowAnimText js-reveal">
-        <div class="textCol">
-            <p class="title">We cannot accomplish our goals without you</p>
-            <p class="descr">No matter the amount, every donation counts and brings us closer to our goal of creating a
-                world where animals are valued and protected. Together, we can make a difference.
-            </p>
+        <div class="DonateForm textCol">
+            <form action="" method="post">
+                <div class="amtRow">
+                    <label for="fiveH" class="eachAmt"><input id="fiveH" type="radio" name="donateAmt"> ₹500</label>
+                    <label for="OneT" class="eachAmt"><input id="OneT" type="radio" name="donateAmt"> ₹1000</label>
+                    <label for="25H" class="eachAmt"><input id="25H" type="radio" name="donateAmt"> ₹2500</label>
+                    <label for="other" class="eachAmt"><input id="other" type="radio" name="donateAmt"> Other</label>
+                </div>
+                <div class="DogprayMsgtxt js-reveal">
+                    <div class="DogIcon"></div>
+                    <div class="Msgtxt">Only in 2500 INR, you can sponsor a dog's monthly food requirement.</div>
+                </div>
+                <div class="AmtPanRow js-reveal">
+                    <div class="icoInput">
+                        <div class="ico">
+                            <i class="fa fa-inr" aria-hidden="true"></i>
+                        </div>
+                        <input type="text" placeholder="Your Amount" required>
+                    </div>
 
-            <a class="donateBtn" href="get-involved.html">Get Involved</a>
+                    <div class="icoInput">
+                        <div class="ico">
+                            <i class="fa-solid fa-credit-card"></i>
+                        </div>
+                        <input type="text" placeholder="PAN No." required>
+                    </div>
+                </div>
+                <div class="submit"><input type="submit" value="Donate Now"></div>
+            </form>
         </div>
         <div class="imgCol"></div>
     </div>
@@ -104,17 +113,17 @@
                 <div class="item siteMap">
                     <p class="FooterTitleTxt">SITE MAP</p>
                     <ul class="siteMapUL Home">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="our-work.html">Our Work</a></li>
-                        <li><a href="get-involved.html">Get Involved</a></li>
-                        <li><a href="work-with-us.html">Work With Us</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="our-work.php">Our Work</a></li>
+                        <li><a href="get-involved.php">Get Involved</a></li>
+                        <li><a href="work-with-us.php">Work With Us</a></li>
                         
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="shipping-delivery.html">Shipping and Delivery</a></li>
-                        <li><a href="cancellation-refund.html">Cancellation and Refund</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="terms-and-conditions.php">Terms and Conditions</a></li>
+                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                        <li><a href="shipping-delivery.php">Shipping and Delivery</a></li>
+                        <li><a href="cancellation-refund.php">Cancellation and Refund</a></li>
                     </ul>
                 </div>
                 
@@ -130,6 +139,7 @@
             <div class="copyright">Copyright © 2024 Animal Care</div>
         </footer>
     </div>
+
     <script src="JS/jquery.scroll-reveal.js"></script>
     <script src="JS/mobileMenu.js"></script>
     <script>

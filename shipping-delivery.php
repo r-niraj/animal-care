@@ -38,69 +38,79 @@
 
         <div class="navbarCustom">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About us</a></li>
-                <li><a href="our-work.html">Our Work</a></li>
-                <li><a href="get-involved.html">Get Involved</a></li>
-                <li><a href="work-with-us.html">Work With Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="donate.html" class="donateBtn">Donate</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php" class="active">About us</a></li>
+                <li><a href="our-work.php">Our Work</a></li>
+                <li><a href="get-involved.php">Get Involved</a></li>
+                <li><a href="work-with-us.php">Work With Us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="donate.php" class="donateBtn">Donate</a></li>
             </ul>
         </div>
     </div>
     <div class="Breadcrumbs js-reveal">
-        <div class="title">Cancellation and Refund Policy</div>
-        <p class="linksLadder">Home/<span>Cancellation and Refund</span></p>
+        <div class="title">Shipping and Delivery</div>
+        <p class="linksLadder">Home/<span>Shipping and Delivery</span></p>
     </div>
 
     <div class="terms_wrapper">
         <p class="descr js-reveal">
-            Thank you for choosing to support our animal care NGO. Your commitment to our cause is greatly appreciated.
-            Below is our cancellation and refund policy to ensure transparency and clarity in our operations:
+            At Animal Care, we are committed to transparency and clarity in all aspects of our operations, including
+            shipping and delivery. Please note that since we do not offer physical products for sale, this policy
+            pertains to the delivery of digital content or information only.
         </p>
 
         <p class="descr strong js-reveal">
-            Cancellation Policy:
+            Delivery of Digital Content:
         </p>
 
         <div class="descr ponters js-reveal">
             <ul>
                 <li>
-                    Donation Cancellations: Once a donation is made, it cannot be canceled or refunded, as it is
-                    immediately utilized to support our ongoing initiatives for animal welfare.
+                    Upon completion of your donation, registration for an event, or sign-up for volunteering, you will
+                    receive confirmation via email or other digital channels.
                 </li>
                 <li>
-                    Event Registrations: If you have registered for an event organized by our NGO and need to cancel,
-                    please notify us at least 48 hours before the scheduled event. We will do our best to accommodate
-                    your request and provide alternatives if possible.
-                </li>
-                <li>
-                    Volunteer Registrations: If you have signed up to volunteer for our organization and need to cancel,
-                    kindly inform us at least one week prior to the scheduled volunteering date. This allows us to make
-                    necessary adjustments to our volunteer roster.
+                    Digital content, such as event details, volunteering instructions, or donation receipts, will be
+                    provided electronically to the email address you provided during the transaction process.
                 </li>
             </ul>
         </div>
 
         <div class="descr strong js-reveal">
-            Refund Policy:
+            Timeliness of Delivery:
         </div>
 
         <div class="descr ponters js-reveal">
             <ul>
                 <li>
-                    In the rare event of an overpayment or an erroneous donation, please contact us immediately for
-                    assistance. We will investigate the issue promptly and provide a refund if deemed appropriate.
+                    We strive to deliver digital content promptly upon confirmation of your transaction. However, please
+                    allow up to 48 hours to receive confirmation and relevant information, especially during peak
+                    periods.
                 </li>
+            </ul>
+        </div>
+
+        <div class="descr strong js-reveal">
+            Communication:
+        </div>
+        <div class="descr ponters js-reveal">
+            <ul>
                 <li>
-                    Refunds for merchandise purchases: If you have purchased merchandise from our NGO and wish to return
-                    it for a refund, please ensure the items are in their original condition and contact us within 30
-                    days of the purchase date. We will process your refund once we receive the returned items.
+                    In the event of any delays or issues with the delivery of digital content, we will communicate with
+                    you promptly to provide updates and ensure a resolution.
                 </li>
+            </ul>
+        </div>
+
+        <div class="descr strong js-reveal">
+            No Physical Delivery:
+        </div>
+        <div class="descr ponters js-reveal">
+            <ul>
                 <li>
-                    Event Registration Fees: Refunds for event registration fees will be issued on a case-by-case basis,
-                    depending on the circumstances of the cancellation and the time frame within which the request is
-                    made.
+                    Please note that we do not deliver physical products. All communication and content delivery will be
+                    conducted electronically via email or through our website.
                 </li>
             </ul>
         </div>
@@ -111,21 +121,17 @@
         <div class="descr ponters js-reveal">
             <ul>
                 <li>
-                    If you have any questions or concerns regarding our cancellation and refund policy, please don't
-                    hesitate to reach out to us. You can contact our customer support team via email at [NGO Email
-                    Address] or by phone at +91 9315982650.
-                </li>
-                <li>
-                    Our team is dedicated to providing assistance and resolving any issues you may encounter regarding
-                    donations, registrations, or purchases.
+                    If you encounter any issues or have questions regarding the delivery of digital content, please
+                    don't hesitate to contact us at 9315982650. Our team is dedicated to providing
+                    assistance and resolving any concerns you may have.
                 </li>
             </ul>
         </div>
 
         <p class="descr js-reveal">
-            APlease note that our cancellation and refund policy may be subject to change, and any updates will be
-            communicated promptly on our website and through other relevant channels. Thank you for your understanding
-            and continued support of our animal care NGO.
+            By engaging with our NGO, you acknowledge and agree to abide by the terms outlined in this Shipping and
+            Delivery Policy. Thank you for your support and understanding of our commitment to efficient and transparent
+            operations.
         </p>
     </div>
 
@@ -149,17 +155,17 @@
                 <div class="item siteMap">
                     <p class="FooterTitleTxt">SITE MAP</p>
                     <ul class="siteMapUL Home">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="our-work.html">Our Work</a></li>
-                        <li><a href="get-involved.html">Get Involved</a></li>
-                        <li><a href="work-with-us.html">Work With Us</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="our-work.php">Our Work</a></li>
+                        <li><a href="get-involved.php">Get Involved</a></li>
+                        <li><a href="work-with-us.php">Work With Us</a></li>
                         
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="shipping-delivery.html">Shipping and Delivery</a></li>
-                        <li><a href="cancellation-refund.html">Cancellation and Refund</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="terms-and-conditions.php">Terms and Conditions</a></li>
+                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                        <li><a href="shipping-delivery.php">Shipping and Delivery</a></li>
+                        <li><a href="cancellation-refund.php">Cancellation and Refund</a></li>
                     </ul>
                 </div>
                 
