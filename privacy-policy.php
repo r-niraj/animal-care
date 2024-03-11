@@ -190,6 +190,10 @@
                             <div class="yt"><i class="fa-brands fa-youtube"></i></div>
                         </a>
                     </div>
+                    <div class="footerIntro">
+                        Welcome to animal care, where compassion meets dedication. Every creature
+                        finds solace and support in our loving hands.
+                    </div>
                 </div>
                 <div class="item siteMap">
                     <p class="FooterTitleTxt">SITE MAP</p>
@@ -199,7 +203,7 @@
                         <li><a href="our-work.php">Our Work</a></li>
                         <li><a href="get-involved.php">Get Involved</a></li>
                         <li><a href="work-with-us.php">Work With Us</a></li>
-                        
+
                         <li><a href="contact.php">Contact Us</a></li>
                         <li><a href="terms-and-conditions.php">Terms and Conditions</a></li>
                         <li><a href="privacy-policy.php">Privacy Policy</a></li>

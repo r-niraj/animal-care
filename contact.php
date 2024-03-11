@@ -21,15 +21,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    
-      <style>
+
+    <style>
         .message {
             margin-top: 20px;
             font-weight: bold;
         }
+
         .success {
             color: green;
         }
+
         .failure {
             color: red;
         }
@@ -79,7 +81,7 @@
 
     <div class="rowAnimText js-reveal">
         <div class="contactForm textCol">
-            <form action="" method="post" action="<?php echo $SERVER['PHP_SELF'];?>">
+            <form action="" method="post" action="<?php echo $SERVER['PHP_SELF']; ?>">
                 <div><input type="text" name="name" placeholder="Name" required></div>
                 <div><input type="email" name="email" placeholder="Email" required></div>
                 <div><input type="text" name="phone" placeholder="Phone" required></div>
@@ -87,39 +89,39 @@
                 </div>
                 <div class="submit"><input type="submit" name="esubmit" value="Send Inquiry"></div>
             </form>
-            
-                
-    <?php
-        if(isset($_POST['esubmit'])){
-            $to ="tech.animalcare@gmail.com";
-            $subject = "Enquiry: Animal Care Website";
-            $name = $_POST['name'];
-            $email = $_POST['email'];
-            $phone = $_POST['phone'];
-            $message = $_POST['message'];
-            
-            $body = "Name: $name\nEmail: $email\nPhone: $phone\nMessage:\n$message";
-            
-            $headers = "From: $email\r\n" .
-           "Reply-To: $email\r\n" . 
-           'X-Mailer: PHP/' . phpversion();
-            
-            if(mail($to, $subject, $body, $headers)){
-                echo '<div class="message success">Email has been sent successfully.</div>';
-            }else{
-                echo '<div class="message failure">Email sending failed.</div>';
+
+
+            <?php
+            if (isset($_POST['esubmit'])) {
+                $to = "tech.animalcare@gmail.com";
+                $subject = "Enquiry: Animal Care Website";
+                $name = $_POST['name'];
+                $email = $_POST['email'];
+                $phone = $_POST['phone'];
+                $message = $_POST['message'];
+
+                $body = "Name: $name\nEmail: $email\nPhone: $phone\nMessage:\n$message";
+
+                $headers = "From: $email\r\n" .
+                    "Reply-To: $email\r\n" .
+                    'X-Mailer: PHP/' . phpversion();
+
+                if (mail($to, $subject, $body, $headers)) {
+                    echo '<div class="message success">Email has been sent successfully.</div>';
+                } else {
+                    echo '<div class="message failure">Email sending failed.</div>';
+                }
+
+
             }
-            
-            
-        }
-    ?>
+            ?>
         </div>
         <div class="imgCol"></div>
     </div>
 
     <p class="bePartText js-reveal">
         Be a part of Animal Care and help us create a better world for animals. Donate now and make a difference.
-        <a class="donateBtn" href="get-involved.html">Donate</a>
+        <a class="donateBtn" href="get-involved.php">Donate</a>
     </p>
 
     <div class="footer js-reveal">
@@ -138,6 +140,10 @@
                             <div class="yt"><i class="fa-brands fa-youtube"></i></div>
                         </a>
                     </div>
+                    <div class="footerIntro">
+                        Welcome to animal care, where compassion meets dedication. Every creature
+                        finds solace and support in our loving hands.
+                    </div>
                 </div>
                 <div class="item siteMap">
                     <p class="FooterTitleTxt">SITE MAP</p>
@@ -147,7 +153,7 @@
                         <li><a href="our-work.php">Our Work</a></li>
                         <li><a href="get-involved.php">Get Involved</a></li>
                         <li><a href="work-with-us.php">Work With Us</a></li>
-                        
+
                         <li><a href="contact.php">Contact Us</a></li>
                         <li><a href="terms-and-conditions.php">Terms and Conditions</a></li>
                         <li><a href="privacy-policy.php">Privacy Policy</a></li>
@@ -155,7 +161,7 @@
                         <li><a href="cancellation-refund.php">Cancellation and Refund</a></li>
                     </ul>
                 </div>
-               
+
                 <div class="item address home">
                     <p class="title">SWASTIK APARTMENT</p>
                     <p>RZF-988/16, flat no. 204, Second floor,</p>
@@ -173,7 +179,7 @@
     <script>
         $.fn.scrollReveal();
     </script>
-    
+
 </body>
 
 </html>

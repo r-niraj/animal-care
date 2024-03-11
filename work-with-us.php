@@ -69,7 +69,7 @@
                 playing a crucial role inputting an end to animal suffering and being part of the solution.
             </p>
 
-            <a class="donateBtn" href="get-involved.html">Start Now</a>
+            <a class="donateBtn" href="get-involved.php">Start Now</a>
         </div>
         <div class="imgCol"></div>
     </div>
@@ -90,6 +90,10 @@
                             <div class="yt"><i class="fa-brands fa-youtube"></i></div>
                         </a>
                     </div>
+                    <div class="footerIntro">
+                        Welcome to animal care, where compassion meets dedication. Every creature
+                        finds solace and support in our loving hands.
+                    </div>
                 </div>
                 <div class="item siteMap">
                     <p class="FooterTitleTxt">SITE MAP</p>
@@ -99,7 +103,7 @@
                         <li><a href="our-work.php">Our Work</a></li>
                         <li><a href="get-involved.php">Get Involved</a></li>
                         <li><a href="work-with-us.php">Work With Us</a></li>
-                        
+
                         <li><a href="contact.php">Contact Us</a></li>
                         <li><a href="terms-and-conditions.php">Terms and Conditions</a></li>
                         <li><a href="privacy-policy.php">Privacy Policy</a></li>
@@ -107,7 +111,7 @@
                         <li><a href="cancellation-refund.php">Cancellation and Refund</a></li>
                     </ul>
                 </div>
-               
+
                 <div class="item address home">
                     <p class="title">SWASTIK APARTMENT</p>
                     <p>RZF-988/16, flat no. 204, Second floor,</p>

@@ -47,12 +47,64 @@
                     <li><a href="donate.php" class="donateBtn">Donate</a></li>
                 </ul>
             </div>
-            <a href="donate.html" class="donateBtn mobile">Donate</a>
+            <a href="donate.php" class="donateBtn mobile">Donate</a>
             <div class="messageContainer">
                 <h1><span>unleashing hope</span>, transforming lives</h1>
                 <p>- one rescue at a time -</p>
             </div>
+
+
+
+
+            <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Images/home/slider5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/home/slider2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/home/slider3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/home/slider4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/home/slider1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/home/slider6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
         </div>
+
 
         <div class="marginLR js-reveal">
             <div class="info1">
@@ -220,7 +272,7 @@
         <div class="currCamp js-reveal">
             <p class="title">Current Campaign - <span>Feed a Stray Today</span></p>
             <p class="nextTitle">With your ongoing support, together we can create a more compassionate world.</p>
-            <a class="donateBtn" href="donate.html">Donate</a>
+            <a class="donateBtn" href="donate.php">Donate</a>
         </div>
 
         <div class="Comprehensive js-reveal">
@@ -312,9 +364,19 @@
                     <div class="item logoSocial">
                         <div class="logo"></div>
                         <div class="socialIcons">
-                            <a target="_blank" href="https://www.facebook.com/animalcareindia.org.in"><div class="fb"><i class="fa-brands fa-facebook-f"></i></div></a>
-                            <a target="_blank" href="https://www.instagram.com/animalcareindia.org.in/"><div class="insta"><i class="fa-brands fa-instagram"></i></div></a>
-                            <a target="_blank" href="https://www.youtube.com/@animalcareindia"><div class="yt"><i class="fa-brands fa-youtube"></i></div></a>
+                            <a target="_blank" href="https://www.facebook.com/animalcareindia.org.in">
+                                <div class="fb"><i class="fa-brands fa-facebook-f"></i></div>
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com/animalcareindia.org.in/">
+                                <div class="insta"><i class="fa-brands fa-instagram"></i></div>
+                            </a>
+                            <a target="_blank" href="https://www.youtube.com/@animalcareindia">
+                                <div class="yt"><i class="fa-brands fa-youtube"></i></div>
+                            </a>
+                        </div>
+                        <div class="footerIntro">
+                            Welcome to animal care, where compassion meets dedication. Every creature
+                            finds solace and support in our loving hands.
                         </div>
                     </div>
                     <div class="item siteMap">
@@ -325,7 +387,7 @@
                             <li><a href="our-work.php">Our Work</a></li>
                             <li><a href="get-involved.php">Get Involved</a></li>
                             <li><a href="work-with-us.php">Work With Us</a></li>
-                            
+
                             <li><a href="contact.php">Contact Us</a></li>
                             <li><a href="terms-and-conditions.php">Terms and Conditions</a></li>
                             <li><a href="privacy-policy.php">Privacy Policy</a></li>
@@ -333,7 +395,7 @@
                             <li><a href="cancellation-refund.php">Cancellation and Refund</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="item address home">
                         <p class="title">SWASTIK APARTMENT</p>
                         <p>RZF-988/16, flat no. 204, Second floor,</p>

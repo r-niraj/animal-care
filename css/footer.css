@@ -34,12 +34,25 @@
     background-position:bottom right;
 }
 
+.footer .innerFtrContainer .item.logoSocial{
+    display: grid;
+    place-items: center;
+    width: 22%;
+}
+
+.item.logoSocial .footerIntro{
+    margin-top: 15px;
+    text-align: center;
+    line-height: 18px;
+    font-family: inter;
+}
+
 .footer .innerFtrContainer .item.logoSocial .logo {
     background-image: url('../Images/home/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 238px;
-    height: 166px;
+    width: 184px;
+    height: 130px;
 }
 
 .footer .innerFtrContainer .socialIcons {

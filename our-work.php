@@ -7,6 +7,7 @@
     <title>Animal Care - Every Life, Every Heartbeat</title>
     <link rel="stylesheet" href="./css/ourWork.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/lightbox.css">
     <link rel="stylesheet" href="./css/secondary_nav.css">
     <link rel="stylesheet" href="./css/fadeScroll.css">
     <link rel="stylesheet" href="./css/hamMenu.css">
@@ -20,8 +21,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
-
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="JS/lightbox-plus-jquery.js"></script>
 </head>
 
 <body>
@@ -74,7 +75,126 @@
             </div>
         </div>
         <div class="loadMore">
-            <a class="donateBtn" href="#">LOAD MORE</a>
+            <a class="donateBtn" href="gallery/1.JPG" data-lightbox="models" data-title="Image1">LOAD MORE</a>
+
+            <div class="hidden" style="display: none;">
+                
+                <a href="gallery/2.JPG" data-lightbox="models" data-title="Image2">
+                    <img src="gallery/2.JPG">
+                </a>
+                <a href="gallery/3.JPG" data-lightbox="models" data-title="Image3">
+                    <img src="gallery/3.JPG">
+                </a>
+                <a href="gallery/4.JPG" data-lightbox="models" data-title="Image4">
+                    <img src="gallery/4.JPG">
+                </a>
+                <a href="gallery/5.JPG" data-lightbox="models" data-title="Image5">
+                    <img src="gallery/5.JPG">
+                </a>
+                <a href="gallery/6.JPG" data-lightbox="models" data-title="Image6">
+                    <img src="gallery/6.JPG">
+                </a>
+                <a href="gallery/7.JPG" data-lightbox="models" data-title="Image7">
+                    <img src="gallery/7.JPG">
+                </a>
+                <a href="gallery/8.JPG" data-lightbox="models" data-title="Image8">
+                    <img src="gallery/8.JPG">
+                </a>
+                <a href="gallery/9.JPG" data-lightbox="models" data-title="Image9">
+                    <img src="gallery/9.JPG">
+                </a>
+                <a href="gallery/10.JPG" data-lightbox="models" data-title="Image10">
+                    <img src="gallery/10.JPG">
+                </a>
+                <a href="gallery/11.JPG" data-lightbox="models" data-title="Image11">
+                    <img src="gallery/11.JPG">
+                </a>
+                <a href="gallery/12.JPG" data-lightbox="models" data-title="Image12">
+                    <img src="gallery/12.JPG">
+                </a>
+                <a href="gallery/14.JPG" data-lightbox="models" data-title="Image14">
+                    <img src="gallery/14.JPG">
+                </a>
+                <a href="gallery/15.JPG" data-lightbox="models" data-title="Image15">
+                    <img src="gallery/15.JPG">
+                </a>
+                <a href="gallery/16.JPG" data-lightbox="models" data-title="Image16">
+                    <img src="gallery/16.JPG">
+                </a>
+                <a href="gallery/17.JPG" data-lightbox="models" data-title="Image17">
+                    <img src="gallery/17.JPG">
+                </a>
+                <a href="gallery/18.JPG" data-lightbox="models" data-title="Image18">
+                    <img src="gallery/18.JPG">
+                </a>
+                <a href="gallery/19.JPG" data-lightbox="models" data-title="Image19">
+                    <img src="gallery/19.JPG">
+                </a>
+                <a href="gallery/20.JPG" data-lightbox="models" data-title="Image20">
+                    <img src="gallery/20.JPG">
+                </a>
+                <a href="gallery/21.JPG" data-lightbox="models" data-title="Image21">
+                    <img src="gallery/21.JPG">
+                </a>
+                <a href="gallery/22.jpeg" data-lightbox="models" data-title="Image22">
+                    <img src="gallery/22.jpeg">
+                </a>
+                <a href="gallery/23.jpeg" data-lightbox="models" data-title="Image23">
+                    <img src="gallery/23.jpeg">
+                </a>
+                <a href="gallery/24.jpeg" data-lightbox="models" data-title="Image24">
+                    <img src="gallery/24.jpeg">
+                </a>
+                <a href="gallery/25.jpeg" data-lightbox="models" data-title="Image25">
+                    <img src="gallery/25.jpeg">
+                </a>
+                <a href="gallery/26.jpeg" data-lightbox="models" data-title="Image26">
+                    <img src="gallery/26.jpeg">
+                </a>
+                <a href="gallery/27.jpeg" data-lightbox="models" data-title="Image27">
+                    <img src="gallery/27.jpeg">
+                </a>
+                <a href="gallery/28.jpeg" data-lightbox="models" data-title="Image28">
+                    <img src="gallery/28.jpeg">
+                </a>
+                <a href="gallery/29.jpeg" data-lightbox="models" data-title="Image29">
+                    <img src="gallery/29.jpeg">
+                </a>
+                <a href="gallery/30.jpeg" data-lightbox="models" data-title="Image30">
+                    <img src="gallery/30.jpeg">
+                </a>
+                <a href="gallery/31.jpeg" data-lightbox="models" data-title="Image31">
+                    <img src="gallery/31.jpeg">
+                </a>
+                <a href="gallery/32.jpeg" data-lightbox="models" data-title="Image32">
+                    <img src="gallery/32.jpeg">
+                </a>
+                <a href="gallery/33.jpeg" data-lightbox="models" data-title="Image33">
+                    <img src="gallery/33.jpeg">
+                </a>
+                <a href="gallery/34.jpeg" data-lightbox="models" data-title="Image34">
+                    <img src="gallery/34.jpeg">
+                </a>
+                <a href="gallery/35.jpeg" data-lightbox="models" data-title="Image35">
+                    <img src="gallery/35.jpeg">
+                </a>
+                <a href="gallery/36.jpeg" data-lightbox="models" data-title="Image36">
+                    <img src="gallery/36.jpeg">
+                </a>
+                <a href="gallery/37.jpeg" data-lightbox="models" data-title="Image37">
+                    <img src="gallery/37.jpeg">
+                </a>
+                <a href="gallery/38.jpeg" data-lightbox="models" data-title="Image38">
+                    <img src="gallery/38.jpeg">
+                </a>
+                <a href="gallery/39.jpeg" data-lightbox="models" data-title="Image39">
+                    <img src="gallery/39.jpeg">
+                </a>
+                <a href="gallery/40.jpeg" data-lightbox="models" data-title="Image40">
+                    <img src="gallery/40.jpeg">
+                </a>
+
+            </div>
         </div>
     </div>
 
@@ -103,7 +223,7 @@
     </div>
 
     <div class="alignDonate js-reveal">
-        <a class="donateBtn" href="donate.html">Donate</a>
+        <a class="donateBtn" href="donate.php">Donate</a>
     </div>
 
     <div class="footer js-reveal">
@@ -122,6 +242,10 @@
                             <div class="yt"><i class="fa-brands fa-youtube"></i></div>
                         </a>
                     </div>
+                    <div class="footerIntro">
+                        Welcome to animal care, where compassion meets dedication. Every creature
+                        finds solace and support in our loving hands.
+                    </div>
                 </div>
                 <div class="item siteMap">
                     <p class="FooterTitleTxt">SITE MAP</p>
@@ -131,7 +255,7 @@
                         <li><a href="our-work.php">Our Work</a></li>
                         <li><a href="get-involved.php">Get Involved</a></li>
                         <li><a href="work-with-us.php">Work With Us</a></li>
-                        
+
                         <li><a href="contact.php">Contact Us</a></li>
                         <li><a href="terms-and-conditions.php">Terms and Conditions</a></li>
                         <li><a href="privacy-policy.php">Privacy Policy</a></li>
@@ -139,7 +263,7 @@
                         <li><a href="cancellation-refund.php">Cancellation and Refund</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="item address home">
                     <p class="title">SWASTIK APARTMENT</p>
                     <p>RZF-988/16, flat no. 204, Second floor,</p>
@@ -156,6 +280,13 @@
     <script src="JS/mobileMenu.js"></script>
     <script>
         $.fn.scrollReveal();
+
+        lightbox.option({
+            'resizeDuration': 300,
+            'wrapAround': true,
+            'showImageNumberLabel': false,
+            'wrapAround': true
+        })
     </script>
 </body>
 
