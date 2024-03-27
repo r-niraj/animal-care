@@ -185,7 +185,8 @@
             };
             $.ajax({
                 type: "POST",
-                url: "http://localhost:4500/api/donor/save-acf",
+                // url: "http://localhost:4500/api/donor/save-acf",
+                url: "https://animal-care-api.onrender.com/api/donor/save-acf",
                 contentType: 'application/json',
                 data: JSON.stringify(formData),
                 success: function (response) {
@@ -197,7 +198,8 @@
                         name: 'Animal Care (NGO)',
                         description: 'Support Animal Care',
                         image: 'https://animalcareindia.org.in/Images/home/Logo-woutShad.png',
-                        callback_url: `http://localhost:4500/api/donor/paymentverification?name=${name}&email=${email}&PAN=${panNum}`,
+                        // callback_url: `http://localhost:4500/api/donor/paymentverification?name=${name}&email=${email}&PAN=${panNum}`,
+                        callback_url: `https://animal-care-api.onrender.com/api/donor/paymentverification?name=${name}&email=${email}&PAN=${panNum}`,
                         theme: {
                             color: '#70B3B9'
                         },
