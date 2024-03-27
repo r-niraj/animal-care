@@ -61,12 +61,20 @@
 
     <div class="rowAnimText js-reveal">
         <div class="DonateForm textCol">
-            <form action="" method="post">
+            <form id="donateForm" onsubmit="return handleDonateSubmit(event);">
+                <div class="wrapNameEmail">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
                 <div class="amtRow">
-                    <label for="fiveH" class="eachAmt"><input id="fiveH" type="radio" name="donateAmt"> ₹500</label>
-                    <label for="OneT" class="eachAmt"><input id="OneT" type="radio" name="donateAmt"> ₹1000</label>
-                    <label for="25H" class="eachAmt"><input id="25H" type="radio" name="donateAmt"> ₹2500</label>
-                    <label for="other" class="eachAmt"><input id="other" type="radio" name="donateAmt"> Other</label>
+                    <label for="fiveH" class="eachAmt"><input id="fiveH" type="radio" name="amount" value="500">
+                        ₹500</label>
+                    <label for="OneT" class="eachAmt"><input id="OneT" type="radio" name="amount" value="1000">
+                        ₹1000</label>
+                    <label for="25H" class="eachAmt"><input id="25H" type="radio" name="amount" value="2500">
+                        ₹2500</label>
+                    <label for="other" class="eachAmt"><input id="other" type="radio" name="amount" value="other">
+                        Other</label>
                 </div>
                 <div class="DogprayMsgtxt js-reveal">
                     <div class="DogIcon"></div>
@@ -77,17 +85,17 @@
                         <div class="ico">
                             <i class="fa fa-inr" aria-hidden="true"></i>
                         </div>
-                        <input type="text" placeholder="Your Amount" required>
+                        <input type="number" placeholder="Your Amount" required id="otherAmt">
                     </div>
 
                     <div class="icoInput">
                         <div class="ico">
                             <i class="fa-solid fa-credit-card"></i>
                         </div>
-                        <input type="text" placeholder="PAN No." required>
+                        <input type="text" name="panNum" placeholder="PAN No." required>
                     </div>
                 </div>
-                <div class="submit"><input type="submit" value="Donate Now"></div>
+                <div class="submit"><input type="submit" id="donateNow" value="Donate Now"></div>
             </form>
         </div>
         <div class="imgCol"></div>
@@ -146,7 +154,71 @@
 
     <script src="JS/jquery.scroll-reveal.js"></script>
     <script src="JS/mobileMenu.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <script>
+
+
+        $(document).ready(function () {
+            $('#donateForm').submit(false);
+
+            $('#donateForm .amtRow input').on('change', function () {
+                let amount = $(this).val();
+                if (amount != "other") {
+                    $('#otherAmt').val("").attr('disabled', true).removeAttr('required');
+                } else {
+                    $('#otherAmt').attr('required', true).attr('disabled', false);
+                }
+            });
+
+        });
+
+        function handleDonateSubmit(event) {
+            event.preventDefault();
+            debugger
+            let amount = $('.amtRow input:checked').val() === "other" ? $('#otherAmt').val() : $('.amtRow input:checked').val();
+            let name = $('input[name="name"]').val();
+            let email = $('input[name="email"]').val();
+            let panNum = $('input[name="panNum"]').val();
+
+            var formData = {
+                name, email, amount, panNum
+            };
+            $.ajax({
+                type: "POST",
+                url: "http://localhost:4500/api/donor/save-acf",
+                contentType: 'application/json',
+                data: JSON.stringify(formData),
+                success: function (response) {
+                    const keyId = 'rzp_test_H5PK5biOGDqAR0';
+                    const options = {
+                        key: keyId,
+                        amount: response.order.amount, // Amount in paisa (e.g., 1000 for ₹10)
+                        currency: 'INR',
+                        name: 'Animal Care (NGO)',
+                        description: 'Support Animal Care',
+                        image: 'https://animalcareindia.org.in/Images/home/Logo-woutShad.png',
+                        callback_url: `http://localhost:4500/api/donor/paymentverification?name=${name}&email=${email}&PAN=${panNum}`,
+                        theme: {
+                            color: '#70B3B9'
+                        },
+                        order_id: response.order.id,
+                    };
+
+                    const razor = new (window).Razorpay(options);
+                    razor.on('payment.failed', function (response) {
+                        alert(response.error.description);
+                    });
+
+                    razor.open();
+                },
+                error: function (xhr, status, error) {
+                    console.log(xhr.responseText);
+                },
+                contentType: "application/json"
+            });
+
+            $('#donateForm')[0].reset();
+        };
         $.fn.scrollReveal();
     </script>
 </body>

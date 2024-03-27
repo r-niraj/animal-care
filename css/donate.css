@@ -39,6 +39,24 @@
     padding: 25px;
 }
 
+#donateForm .wrapNameEmail{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+ #donateForm input[name="name"],  
+ #donateForm input[name="email"]{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #398086;
+    width: 100%;
+    border: 1px solid #398086;
+    margin-bottom: 4px;
+ }
+
 .DonateForm.textCol form{
     width: 100%;
 }
@@ -131,6 +149,17 @@
     width: 100%;
     cursor: pointer;
 }
+
+.thanksContent{
+    margin: 3% 4%;
+    font-family: 'raleway';
+}
+
+.thanksContent h2{
+    text-align: center;
+    margin: 3%;
+}
+
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
