@@ -190,7 +190,7 @@
                 contentType: 'application/json',
                 data: JSON.stringify(formData),
                 success: function (response) {
-                    const keyId = 'rzp_test_H5PK5biOGDqAR0';
+                    const keyId = 'rzp_live_JXjJG4d1BVFN9J';
                     const options = {
                         key: keyId,
                         amount: response.order.amount, // Amount in paisa (e.g., 1000 for ₹10)
